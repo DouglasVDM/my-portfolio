@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dev Douglas Portfolio Website</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
 </head>
+
 <body>
   <header>
     <div class="logo">
@@ -17,23 +20,47 @@
       <span class="hamburger"></span>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#" class="nav__link">
-              Home
-            </a>
-            <a href="#" class="nav__link">
-              My Services
-            </a>
-            <a href="#" class="nav__link">
-              About me
-            </a>
-            <a href="#" class="nav__link">
-              My Work
-            </a>
-          </li>
+          <i class="nav__item"><a href="#home" class="nav__link">Home</a></i>
+          <i class="nav__item"><a href="#services" class="nav__link">My Services</a></i>
+          <i class="nav__item"><a href="#about" class="nav__link">About me</a></i>
+          <i class="nav__item"><a href="#work" class="nav__link">My Work</a></i>
         </ul>
       </nav>
     </button>
   </header>
+
+  <!-- INTRODUCTION -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong>Douglas Van Der Merwe</strong>
+    </h1>
+    <p class="section__subtitle section__title__intro">full stack dev</p>
+    <img src="img/20210820_102149.png" alt="a picture of Douglas Van Der Merwe smiling">
+  </section>
+
+  <!-- MY SERVICES -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+      <div class="service">
+        <h3></h3>
+        <p></p>
+      </div>  <!-- / SERVICE -->
+
+      <div class="service">
+        <h3></h3>
+        <p></p>
+      </div>  <!-- / SERVICE -->
+
+      <div class="service">
+        <h3></h3>
+        <p></p>
+      </div>  <!-- / SERVICE -->
+      
+    </div>  <!-- / SERVICES -->
+
+    <a href="#work" class="btn">My Work</a>
+  </section>
 </body>
+
 </html>
