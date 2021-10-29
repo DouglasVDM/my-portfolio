@@ -1,16 +1,7 @@
-# title(){return this.options.title||this.options.name}
+# Douglas Van Der Merwe Portfolio Website
 
-## Supporting Scrimba
+[![Netlify Status](https://api.netlify.com/api/v1/badges/204e53f8-74d2-4b25-861b-9e9e2f1f64c2/deploy-status)](https://app.netlify.com/sites/dta-portfolio-template/deploys)
 
-Since 2017, we have created over 20 free courses on Scrimba, and we're going to
-continue launching free courses. But to pay our bills, we have to charge once
-in a while. So if you've ever wanted to "give back" to Scrimba, you can do that by buying
-	one of our paid courses
+## Send me an email
 
-- [Become a professional React developer](https://scrimba.com/course/greact)
-- [The Responsive Web Design Bootcamp](https://scrimba.com/course/gresponsive)
-- [The Ultimate JavaScript Bootcamp](https://scrimba.com/course/gjavascript)
-
-	It would also mean the world to us if you share the courses.  
-
-Happy Coding!
+Looking forward to your response!
